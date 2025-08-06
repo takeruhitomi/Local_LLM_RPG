@@ -75,12 +75,6 @@ cd ../..
 2. ディレクトリを作成: `llama.cpp/models/`  
 3. モデルファイルを配置: `llama.cpp/models/Llama-3.1-8B-EZO-1.1-it.i1-Q4_K_M.gguf`
 
-**方法B: ダウンロードスクリプトを使用**
-```bash
-# ダウンロードスクリプトを実行
-./scripts/download_model.bat
-```
-
 **モデル情報:**
 - **モデル**: Llama-3.1-8B-EZO-1.1-it（日本語チューニング済み）
 - **形式**: GGUF Q4_K_M量子化
@@ -146,16 +140,9 @@ cmake --build .
 
 ### 7. DLLファイルのコピー（MSYS2使用時）
 
-**方法A: 自動スクリプトを使用（推奨）**
-```bash
-# MSYS2端末で実行
-./scripts/copy_dlls.sh
+通常、MSYS2でSDL2をインストールした場合、DLLは自動的に認識されます。  
+必要に応じて以下のDLLを`build/`ディレクトリにコピーしてください：
 
-# またはWindowsコマンドプロンプトで実行
-scripts\copy_dlls.bat
-```
-
-**方法B: 手動コピー**
 ```bash
 # 必要なDLLをbuildディレクトリにコピー
 cp /mingw64/bin/SDL2.dll ./
