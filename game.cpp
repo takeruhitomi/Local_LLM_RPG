@@ -1,6 +1,4 @@
-﻿// Game.cpp (戦闘システム実装版)
-
-#include "Game.h"
+﻿#include "Game.h"
 #include <SDL_image.h>
 #include <iostream>
 #include <stdexcept>
@@ -56,7 +54,7 @@ bool Game::init() {
         full_model_paths[pair.first] = basePath + pair.second;
     }
 
-    initializeDatabase();  // アイテム・モンスターデータを初期化
+    initializeDatabase();
     
     if (!loadResources()) { std::cerr << "Failed to load resources." << std::endl; return false; }
 
@@ -87,7 +85,7 @@ void Game::initializeDatabase() {
     forestGuardian.weaknesses = {"火", "炎", "燃焼", "火属性", "ファイア", "火魔法"};
     forestGuardian.description = "古い森の精霊が「静寂」に侵された姿。木の身体を持つため極端に火に弱い。";
     
-    // std::moveでMonsterをマップに移動（unique_ptrのため）
+    // std::moveでMonsterをマップに移動
     monsterDatabase["森の守護者"] = std::move(forestGuardian);
 }
 
@@ -123,7 +121,6 @@ bool Game::loadResources() {
     if (!load_texture(villageElderTexture, "images/npcs/village_elder.jpg", 255, 255, 255)) return false;
     if (!load_texture(forestBgTexture, "images/background/forest.jpg", 0, 0, 0)) return false;
     
-    // モンスターテクスチャの読み込み
     TexturePtr guardianTexture;
     if (!load_texture(guardianTexture, "images/monsters/forest_guardian.jpg", 255, 255, 255)) {
         std::cerr << "Failed to load forest guardian texture" << std::endl;
@@ -169,7 +166,7 @@ void Game::handleEvents() {
                         currentState = GameState::TRANSITION_TO_FOREST;
                         showDepartureButton = false;
                         isNpcImageVisible = false;
-                        // ★★★ 表示状態をリセット ★★★
+
                         isForestBgVisible = false;
                         isMonsterVisible = false;
                         forestBgAlpha = 0;
@@ -292,7 +289,6 @@ void Game::update() {
             } else {
                 currentState = GameState::CONVERSATION;
                 isNpcImageVisible = true;
-                // ★★★ 長老の初期セリフを会話ログに追加 ★★★
                 pushToLog("長老: あなたか...。よく来てくれた。話したいことがある。");
             }
         }
@@ -306,7 +302,6 @@ void Game::update() {
                 pushToLog(transitionStory[currentTransitionIndex]);
                 lastTransitionTime = SDL_GetTicks();
                 
-                // ★★★ 各段階での表示制御 ★★★
                 if (currentTransitionIndex == 1) {
                     // "一歩外に出ると..." の時点で森の背景を表示開始
                     isForestBgVisible = true;
@@ -315,7 +310,6 @@ void Game::update() {
                     isNpcImageVisible = false;
                 }
             } else {
-                // 最後のストーリーが終わったら戦闘準備
                 currentState = GameState::BATTLE;
                 currentEnemyTemplate = &monsterDatabase["森の守護者"];
                 if (!currentEnemyTemplate->texture) {
@@ -333,9 +327,8 @@ void Game::update() {
         return;
     }
 
-    // GM応答の非同期処理開始
+    // GM応答
     if (currentState == GameState::PROCESSING_GM && !gm_future.valid()) {
-        // 会話履歴を作成
         std::vector<ChatMessage> history;
         history.push_back({"system", ""});
         for(const auto& log : conversationLog) {
@@ -407,7 +400,7 @@ void Game::update() {
         }
     }
 
-    // 戦闘応答の非同期処理開始
+    // 戦闘応答
     if (currentState == GameState::PROCESSING_BATTLE && !battle_future.valid()) {
         // 最後のプレイヤー行動を取得
         std::string last_action;
@@ -511,9 +504,8 @@ void Game::render_Title() {
 }
 
 void Game::render_Field() {
-    // ★★★ 背景の段階的表示 ★★★
     if (currentState == GameState::TRANSITION_TO_FOREST && isForestBgVisible && forestBgAlpha > 0) {
-        // 森の背景を半透明で表示（移行中）
+        // 森の背景を半透明で表示
         SDL_SetTextureBlendMode(forestBgTexture.get(), SDL_BLENDMODE_BLEND);
         SDL_SetTextureAlphaMod(forestBgTexture.get(), forestBgAlpha);
         SDL_RenderCopy(renderer, forestBgTexture.get(), NULL, NULL);
@@ -549,7 +541,6 @@ void Game::render_Field() {
 void Game::render_Battle() {
     SDL_RenderCopy(renderer, forestBgTexture.get(), NULL, NULL);
 
-    // ★★★ モンスター画像の段階的表示 ★★★
     if (currentEnemyTemplate && isMonsterVisible && monsterAlpha > 0) {
         if (currentEnemyTemplate->texture) {
             SDL_SetTextureBlendMode(currentEnemyTemplate->texture.get(), SDL_BLENDMODE_BLEND);
@@ -830,7 +821,6 @@ void Game::recalculateStats() {
     }
 }
 
-// ★★★ 追加: ゲームの状態を初期化する関数 ★★★
 void Game::resetGame() {
     currentState = GameState::TITLE;
     conversationLog.clear();
@@ -843,7 +833,6 @@ void Game::resetGame() {
     isNpcImageVisible = false;
     showDepartureButton = false;
     
-    // ★★★ 新しい表示状態をリセット ★★★
     isForestBgVisible = false;
     isMonsterVisible = false;
     forestBgAlpha = 0;
