@@ -19,7 +19,6 @@ llama.cpp/
 fonts/
 
 # Temporary and backup directories
-trashed/
 temp/
 tmp/
 
