@@ -1,5 +1,3 @@
-// LlmManager.cpp (スレッド数最適化版)
-
 #include "LlmManager.h"
 #include <stdexcept>
 #include <iostream>
@@ -30,7 +28,7 @@ LlmManager::LlmManager(const std::map<std::string, std::string>& model_paths) {
         // 新しいモデルインスタンスを作成
         LlmInstance instance;
         auto mparams = llama_model_default_params();
-        mparams.use_mmap = false;  // メモリマップを無効化してCPU使用率向上
+        mparams.use_mmap = false; 
         mparams.use_mlock = false;
         
         instance.model = llama_model_load_from_file(path.c_str(), mparams);
@@ -39,16 +37,15 @@ LlmManager::LlmManager(const std::map<std::string, std::string>& model_paths) {
         }
 
         auto cparams = llama_context_default_params();
-        cparams.n_ctx = 2048;  // コンテキストサイズを維持
-        cparams.n_batch = 256; // バッチサイズを削減してエラー回避
+        cparams.n_ctx = 2048;  // コンテキストサイズ
+        cparams.n_batch = 256; 
         
-        // スレッド数の最適化
-        cparams.n_threads = 8;        // 物理コア数に近い値
-        cparams.n_threads_batch = 8;  // バッチ処理用も同じ
-        
-        // CPU最適化設定
+        // スレッド数
+        cparams.n_threads = 8; 
+        cparams.n_threads_batch = 8;  
+    
         cparams.flash_attn = false;
-        cparams.offload_kqv = false;  // KQVキャッシュをCPUに保持
+        cparams.offload_kqv = false;  
         
         instance.ctx = llama_init_from_model(instance.model, cparams);
         if (instance.ctx == nullptr) {
@@ -138,7 +135,7 @@ std::string LlmManager::run_inference(const std::string& role, const std::string
     std::string result_str;
     int n_cur = n_tokens;
     
-    // ★★★ Llama3用のサンプラー設定 ★★★
+    // サンプラー設定
     struct llama_sampler_chain_params sparams = llama_sampler_chain_default_params();
     llama_sampler* sampler = llama_sampler_chain_init(sparams);
     
@@ -155,7 +152,6 @@ std::string LlmManager::run_inference(const std::string& role, const std::string
     }
     llama_sampler_chain_add(sampler, llama_sampler_init_dist(1234));
     
-    // ★★★ 生成用バッチは常に1トークンのみ ★★★
     llama_batch gen_batch = llama_batch_init(1, 0, 1);
 
     bool has_started_json = false;
@@ -184,7 +180,6 @@ std::string LlmManager::run_inference(const std::string& role, const std::string
 
         result_str.append(piece_str);
         
-        // GM出力のみリアルタイム表示
         if (role == "GM") {
             std::cout << piece_str << std::flush;
         }
@@ -231,7 +226,6 @@ std::string LlmManager::run_inference(const std::string& role, const std::string
             }
         }
         
-        // ★★★ 生成バッチの設定を安全に行う ★★★
         gen_batch.n_tokens = 1;
         gen_batch.token[0] = new_token_id;
         gen_batch.pos[0] = n_cur;
@@ -255,23 +249,7 @@ std::string LlmManager::run_inference(const std::string& role, const std::string
 generation_done:
     llama_batch_free(gen_batch);
     llama_sampler_free(sampler);
-    
-    // ★★★ 戦闘用の出力表示を削除 ★★★
-    // if (role == "BATTLE") {
-    //     std::cout << std::endl;
-    //     std::cout << "=== BATTLE RAW OUTPUT ===\n";
-    //     std::cout << "\"" << result_str << "\"" << std::endl;
-    //     std::cout << "=== END BATTLE RAW OUTPUT ===\n" << std::endl;
-    // }
 
-    // ★★★ 戦闘用のクリーンアップ後表示も削除 ★★★
-    // if (role == "BATTLE") {
-    //     std::cout << "=== BATTLE AFTER CLEANUP ===\n";
-    //     std::cout << "\"" << result_str << "\"" << std::endl;
-    //     std::cout << "=== END BATTLE AFTER CLEANUP ===\n" << std::endl;
-    // }
-    
-    // ★★★ GM情報のみ詳細表示 ★★★
     if (role == "GM") {
         std::cout << std::endl;
         std::cout << "=== END GM RAW OUTPUT ===\n";
@@ -280,9 +258,7 @@ generation_done:
         std::cout << "=== END GM BEFORE CLEANUP ===\n" << std::endl;
     }
     
-    // ★★★ 最終的なクリーンアップ（戦闘用はより慎重に） ★★★
     if (role == "BATTLE") {
-        // 戦闘用は最小限のクリーンアップのみ
         std::vector<std::string> battle_cleanup_tokens = {
             "<|eot_id|>", "<|end_of_text|>", "</s>"
         };
@@ -308,14 +284,11 @@ generation_done:
         }
     }
     
-    // ★★★ 戦闘結果のクリーンアップ後も表示 ★★★
     if (role == "BATTLE") {
         std::cout << "=== BATTLE AFTER CLEANUP ===\n";
         std::cout << "\"" << result_str << "\"" << std::endl;
         std::cout << "=== END BATTLE AFTER CLEANUP ===\n" << std::endl;
     }
-    
-    // ★★★ GM情報のみ後処理結果表示 ★★★
     if (role == "GM") {
         std::cout << "=== GM AFTER CLEANUP ===\n";
         std::cout << "\"" << result_str << "\"" << std::endl;
@@ -326,7 +299,6 @@ generation_done:
 }
 
 std::string LlmManager::generateNpcDialogue(const std::vector<ChatMessage>& history, const std::string& scene_context) {
-    // ★★★ ゲーム内ストーリー設定に合わせて修正 ★★★
     std::string world_lore = 
         "=== 世界設定 ===\n"
         "かつて、世界は万物の調和を司る「調和のクリスタル」の恩恵を受け、平和と繁栄を謳歌していた。\n"
@@ -357,7 +329,6 @@ std::string LlmManager::generateNpcDialogue(const std::vector<ChatMessage>& hist
     std::stringstream ss;
     ss << "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\n" << system_prompt << "<|eot_id|>";
     
-    // ★★★ 最初の挨拶を追加 ★★★
     bool has_initial_greeting = false;
     for (const auto& msg : history) {
         if (msg.role == "assistant" && !msg.content.empty()) {
@@ -371,7 +342,6 @@ std::string LlmManager::generateNpcDialogue(const std::vector<ChatMessage>& hist
         ss << "<|start_header_id|>assistant<|end_header_id|>\n\n長老: あなたか...。よく来てくれた。話したいことがある。<|eot_id|>";
     }
     
-    // ★★★ 履歴を増やして文脈理解向上 ★★★
     int start_idx = std::max(0, (int)history.size() - 5);
     for (int i = start_idx; i < history.size(); ++i) {
         const auto& msg = history[i];
@@ -386,12 +356,10 @@ std::string LlmManager::generateNpcDialogue(const std::vector<ChatMessage>& hist
     
     std::string raw_response = run_inference("NPC", ss.str());
     
-    // ★★★ デバッグ用：NPC応答の前処理（プロンプトのみ表示） ★★★
     std::cout << "=== NPC PROMPT SENT ===\n";
     std::cout << ss.str() << std::endl;
     std::cout << "=== END NPC PROMPT ===\n" << std::endl;
     
-    // ★★★ レスポンスのクリーンアップを強化 ★★★
     // Llama3の特殊トークンを除去
     std::vector<std::string> tokens_to_remove = {
         "<|eot_id|>", "<|start_header_id|>", "<|end_header_id|>", 
@@ -412,7 +380,6 @@ std::string LlmManager::generateNpcDialogue(const std::vector<ChatMessage>& hist
         raw_response = raw_response.substr(first, last - first + 1);
     }
     
-    // ★★★ デバッグ用：NPC応答の後処理結果を表示 ★★★
     std::cout << "=== NPC RAW RESPONSE ===\n";
     std::cout << "\"" << raw_response << "\"" << std::endl;
     std::cout << "=== END NPC RAW RESPONSE ===\n" << std::endl;
@@ -420,7 +387,6 @@ std::string LlmManager::generateNpcDialogue(const std::vector<ChatMessage>& hist
     return raw_response;
 }
 
-// ★★★ GMのプロンプトも世界設定に合わせて微調整 ★★★
 GmResponse LlmManager::generateGmResponse(const std::vector<ChatMessage>& history) {
     std::string system_prompt =
         "あなたは日本語RPGのゲームマスターです。プレイヤーとの会話を分析し、JSON形式で応答してください。\n\n"
@@ -444,7 +410,6 @@ GmResponse LlmManager::generateGmResponse(const std::vector<ChatMessage>& histor
     std::stringstream ss;
     ss << "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\n" << system_prompt << "<|eot_id|>";
     
-    // ★★★ 履歴を増やして文脈理解向上 ★★★
     int start_idx = std::max(0, (int)history.size() - 6);
     for (int i = start_idx; i < history.size(); ++i) {
         const auto& msg = history[i];
@@ -460,14 +425,12 @@ GmResponse LlmManager::generateGmResponse(const std::vector<ChatMessage>& histor
 
     std::string raw_response = run_inference("GM", ss.str());
     
-    // ★★★ デバッグ用：パース前の応答を表示 ★★★
     std::cout << "=== GM RESPONSE BEFORE PARSING ===\n";
     std::cout << "\"" << raw_response << "\"" << std::endl;
     std::cout << "=== END GM RESPONSE ===\n" << std::endl;
     
     GmResponse result = parseGmResponse(raw_response);
     
-    // ★★★ デバッグ用：パース結果を表示 ★★★
     std::cout << "=== PARSED GM RESPONSE ===\n";
     std::cout << "scene_context: \"" << result.scene_context << "\"" << std::endl;
     std::cout << "action: \"" << result.action << "\"" << std::endl;
@@ -482,7 +445,6 @@ GmResponse LlmManager::generateGmResponse(const std::vector<ChatMessage>& histor
     return result;
 }
 
-// ★★★ 戦闘システムも世界設定に合わせて調整 ★★★
 BattleResponse LlmManager::generateBattleResponse(const std::string& player_stats, const std::string& enemy_stats, const std::string& player_action, const std::string& enemy_info) {
     std::string system_prompt =
         "あなたは戦闘の裁定者です。「静寂」に侵された魔物との戦いを裁定します。\n"

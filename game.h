@@ -35,7 +35,7 @@ struct Monster {
     std::vector<std::string> weaknesses;  // 弱点属性リスト（火、氷など）
     std::string description;
     
-    // unique_ptrのためコピー禁止、ムーブのみ許可
+    // unique_ptrコピー禁止、ムーブのみ許可
     Monster() = default;
     Monster(const Monster&) = delete;
     Monster& operator=(const Monster&) = delete;
@@ -91,7 +91,7 @@ private:
 
     std::unique_ptr<LlmManager> llmManager;
     
-    // 非同期処理用のfutureオブジェクト
+    // 非同期処理用
     std::future<GmResponse> gm_future;
     std::future<std::string> npc_future;
     std::future<BattleResponse> battle_future;
@@ -140,4 +140,4 @@ private:
     void resetGame();  // ゲーム状態をタイトル画面に戻す
 };
 
-#endif // GAME_H
+#endif
