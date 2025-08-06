@@ -6,5 +6,5 @@ CXX_DEFINES = -DGGML_USE_CPU
 
 CXX_INCLUDES = @CMakeFiles/game.dir/includes_CXX.rsp
 
-CXX_FLAGS = -O3 -DNDEBUG -std=gnu++17
+CXX_FLAGS = -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8
 

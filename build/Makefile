@@ -249,29 +249,29 @@ Game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/Game.cpp.s
 .PHONY : Game.cpp.s
 
-LLM.obj: LLM.cpp.obj
-.PHONY : LLM.obj
+LlmManager.obj: LlmManager.cpp.obj
+.PHONY : LlmManager.obj
 
 # target to build an object file
-LLM.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/LLM.cpp.obj
-.PHONY : LLM.cpp.obj
+LlmManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/LlmManager.cpp.obj
+.PHONY : LlmManager.cpp.obj
 
-LLM.i: LLM.cpp.i
-.PHONY : LLM.i
+LlmManager.i: LlmManager.cpp.i
+.PHONY : LlmManager.i
 
 # target to preprocess a source file
-LLM.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/LLM.cpp.i
-.PHONY : LLM.cpp.i
+LlmManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/LlmManager.cpp.i
+.PHONY : LlmManager.cpp.i
 
-LLM.s: LLM.cpp.s
-.PHONY : LLM.s
+LlmManager.s: LlmManager.cpp.s
+.PHONY : LlmManager.s
 
 # target to generate assembly for a file
-LLM.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/LLM.cpp.s
-.PHONY : LLM.cpp.s
+LlmManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\game.dir\build.make CMakeFiles/game.dir/LlmManager.cpp.s
+.PHONY : LlmManager.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -317,9 +317,9 @@ help:
 	@echo ... Game.obj
 	@echo ... Game.i
 	@echo ... Game.s
-	@echo ... LLM.obj
-	@echo ... LLM.i
-	@echo ... LLM.s
+	@echo ... LlmManager.obj
+	@echo ... LlmManager.i
+	@echo ... LlmManager.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

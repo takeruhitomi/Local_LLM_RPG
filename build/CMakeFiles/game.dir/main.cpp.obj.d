@@ -137,11 +137,35 @@ CMakeFiles/game.dir/main.cpp.obj: D:\cpp\main.cpp D:\cpp\Game.h \
  D:/msy64/mingw64/include/c++/15.1.0/bits/atomic_lockfree_defines.h \
  D:/msy64/mingw64/include/c++/15.1.0/backward/auto_ptr.h \
  D:/msy64/mingw64/include/c++/15.1.0/pstl/glue_memory_defs.h \
- D:/msy64/mingw64/include/c++/15.1.0/pstl/execution_defs.h D:\cpp\LLM.h \
- D:/cpp/llama.cpp/include/llama.h D:/cpp/llama.cpp/ggml/include/ggml.h \
- D:/msy64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdbool.h \
+ D:/msy64/mingw64/include/c++/15.1.0/pstl/execution_defs.h \
+ D:/msy64/mingw64/include/c++/15.1.0/future \
+ D:/msy64/mingw64/include/c++/15.1.0/mutex \
+ D:/msy64/mingw64/include/c++/15.1.0/bits/chrono.h \
+ D:/msy64/mingw64/include/c++/15.1.0/ratio \
+ D:/msy64/mingw64/include/c++/15.1.0/cstdint \
  D:/msy64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
  D:/msy64/mingw64/include/stdint.h \
+ D:/msy64/mingw64/include/c++/15.1.0/limits \
+ D:/msy64/mingw64/include/c++/15.1.0/ctime \
+ D:/msy64/mingw64/include/c++/15.1.0/bits/parse_numbers.h \
+ D:/msy64/mingw64/include/c++/15.1.0/bits/std_mutex.h \
+ D:/msy64/mingw64/include/c++/15.1.0/bits/unique_lock.h \
+ D:/msy64/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/error_constants.h \
+ D:/msy64/mingw64/include/c++/15.1.0/condition_variable \
+ D:/msy64/mingw64/include/c++/15.1.0/system_error \
+ D:/msy64/mingw64/include/c++/15.1.0/stdexcept \
+ D:/msy64/mingw64/include/c++/15.1.0/bits/atomic_futex.h \
+ D:/msy64/mingw64/include/c++/15.1.0/atomic \
+ D:/msy64/mingw64/include/c++/15.1.0/bits/std_function.h \
+ D:/msy64/mingw64/include/c++/15.1.0/bits/std_thread.h \
+ D:/msy64/mingw64/include/c++/15.1.0/map \
+ D:/msy64/mingw64/include/c++/15.1.0/bits/stl_tree.h \
+ D:/msy64/mingw64/include/c++/15.1.0/bits/node_handle.h \
+ D:/msy64/mingw64/include/c++/15.1.0/bits/stl_map.h \
+ D:/msy64/mingw64/include/c++/15.1.0/bits/stl_multimap.h \
+ D:/msy64/mingw64/include/c++/15.1.0/bits/erase_if.h D:\cpp\LlmManager.h \
+ D:/cpp/llama.cpp/include/llama.h D:/cpp/llama.cpp/ggml/include/ggml.h \
+ D:/msy64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdbool.h \
  D:/cpp/llama.cpp/ggml/include/ggml-cpu.h \
  D:/cpp/llama.cpp/ggml/include/ggml-backend.h \
  D:/cpp/llama.cpp/ggml/include/ggml-alloc.h \
@@ -163,7 +187,6 @@ CMakeFiles/game.dir/main.cpp.obj: D:\cpp\main.cpp D:\cpp\Game.h \
  D:/msy64/mingw64/include/c++/15.1.0/cmath \
  D:/msy64/mingw64/include/math.h \
  D:/msy64/mingw64/include/c++/15.1.0/bits/specfun.h \
- D:/msy64/mingw64/include/c++/15.1.0/limits \
  D:/msy64/mingw64/include/c++/15.1.0/tr1/gamma.tcc \
  D:/msy64/mingw64/include/c++/15.1.0/tr1/special_function_util.h \
  D:/msy64/mingw64/include/c++/15.1.0/tr1/bessel_function.tcc \
@@ -342,9 +365,30 @@ CMakeFiles/game.dir/main.cpp.obj: D:\cpp\main.cpp D:\cpp\Game.h \
  D:/msy64/mingw64/include/SDL2/SDL_locale.h \
  D:/msy64/mingw64/include/SDL2/SDL_misc.h \
  D:/msy64/mingw64/include/SDL2/SDL_ttf.h \
- D:/msy64/mingw64/include/SDL2/SDL.h D:/msy64/mingw64/include/windows.h \
- D:/msy64/mingw64/include/sdkddkver.h D:/msy64/mingw64/include/excpt.h \
- D:/msy64/mingw64/include/windef.h \
+ D:/msy64/mingw64/include/SDL2/SDL.h \
+ D:/msy64/mingw64/include/c++/15.1.0/iostream \
+ D:/msy64/mingw64/include/c++/15.1.0/ostream \
+ D:/msy64/mingw64/include/c++/15.1.0/bits/ostream.h \
+ D:/msy64/mingw64/include/c++/15.1.0/ios \
+ D:/msy64/mingw64/include/c++/15.1.0/bits/ios_base.h \
+ D:/msy64/mingw64/include/c++/15.1.0/bits/locale_classes.h \
+ D:/msy64/mingw64/include/c++/15.1.0/bits/locale_classes.tcc \
+ D:/msy64/mingw64/include/c++/15.1.0/streambuf \
+ D:/msy64/mingw64/include/c++/15.1.0/bits/streambuf.tcc \
+ D:/msy64/mingw64/include/c++/15.1.0/bits/basic_ios.h \
+ D:/msy64/mingw64/include/c++/15.1.0/bits/locale_facets.h \
+ D:/msy64/mingw64/include/c++/15.1.0/cwctype \
+ D:/msy64/mingw64/include/wctype.h \
+ D:/msy64/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/ctype_base.h \
+ D:/msy64/mingw64/include/c++/15.1.0/bits/streambuf_iterator.h \
+ D:/msy64/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/ctype_inline.h \
+ D:/msy64/mingw64/include/c++/15.1.0/bits/locale_facets.tcc \
+ D:/msy64/mingw64/include/c++/15.1.0/bits/basic_ios.tcc \
+ D:/msy64/mingw64/include/c++/15.1.0/bits/ostream.tcc \
+ D:/msy64/mingw64/include/c++/15.1.0/istream \
+ D:/msy64/mingw64/include/c++/15.1.0/bits/istream.tcc \
+ D:/msy64/mingw64/include/windows.h D:/msy64/mingw64/include/sdkddkver.h \
+ D:/msy64/mingw64/include/excpt.h D:/msy64/mingw64/include/windef.h \
  D:/msy64/mingw64/include/winapifamily.h \
  D:/msy64/mingw64/include/minwindef.h \
  D:/msy64/mingw64/include/specstrings.h D:/msy64/mingw64/include/sal.h \

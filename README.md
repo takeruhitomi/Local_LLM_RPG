@@ -79,7 +79,29 @@ cd ../..
 - **Size**: ~4.6GB
 - **Source**: Hugging Face model repository
 
-### 4. Install Dependencies
+### 4. Download Japanese Font
+
+**Option A: Manual Download**
+1. Visit: http://jikasei.me/font/kh-dotfont/
+2. Download `khdotfont-20150527.zip`
+3. Extract the zip file
+4. Copy `KH-Dot-Hibiya-24.ttf` from the extracted folder
+5. Rename it to `ipaexg.ttf`
+6. Create `fonts/` directory and place the file there
+
+**Option B: Use Download Script**
+```bash
+# Run the font download helper script
+./scripts/download_fonts.bat
+```
+
+**Font Information:**
+- **Font**: KH Dot Font - Hibiya 24pt
+- **License**: SIL Open Font License 1.1 (Commercial use permitted)
+- **Source**: http://jikasei.me/font/kh-dotfont/
+- **Required File**: `fonts/ipaexg.ttf`
+
+### 5. Install Dependencies
 
 **SDL2 Libraries** (Windows):
 ```bash
@@ -87,7 +109,7 @@ cd ../..
 # Extract to a local directory and set environment variables
 ```
 
-### 5. Build the Game
+### 6. Build the Game
 ```bash
 mkdir build
 cd build
@@ -95,7 +117,7 @@ cmake .. -G "MinGW Makefiles"
 mingw32-make
 ```
 
-### 6. Run the Game
+### 7. Run the Game
 ```bash
 ./game.exe
 ```

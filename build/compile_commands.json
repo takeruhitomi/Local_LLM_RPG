@@ -1,301 +1,301 @@
 [
 {
   "directory": "D:/cpp/build/llama.cpp/ggml/src",
-  "command": "D:\\msy64\\mingw64\\bin\\cc.exe -DGGML_COMMIT=\\\"9c35706b\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_VERSION=\\\"0.0.6060\\\" -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-base.dir/includes_C.rsp -O3 -DNDEBUG -std=gnu11 -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -o CMakeFiles\\ggml-base.dir\\ggml.c.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml.c",
+  "command": "D:\\msy64\\mingw64\\bin\\cc.exe -DGGML_COMMIT=\\\"unknown\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_VERSION=\\\"0.0.0\\\" -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-base.dir/includes_C.rsp -O3 -DNDEBUG -std=gnu11 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -o CMakeFiles\\ggml-base.dir\\ggml.c.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml.c",
   "file": "D:/cpp/llama.cpp/ggml/src/ggml.c",
   "output": "llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml.c.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/ggml/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_COMMIT=\\\"9c35706b\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_VERSION=\\\"0.0.6060\\\" -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-base.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\ggml-base.dir\\ggml.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_COMMIT=\\\"unknown\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_VERSION=\\\"0.0.0\\\" -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-base.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\ggml-base.dir\\ggml.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml.cpp",
   "file": "D:/cpp/llama.cpp/ggml/src/ggml.cpp",
   "output": "llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/ggml/src",
-  "command": "D:\\msy64\\mingw64\\bin\\cc.exe -DGGML_COMMIT=\\\"9c35706b\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_VERSION=\\\"0.0.6060\\\" -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-base.dir/includes_C.rsp -O3 -DNDEBUG -std=gnu11 -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -o CMakeFiles\\ggml-base.dir\\ggml-alloc.c.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-alloc.c",
+  "command": "D:\\msy64\\mingw64\\bin\\cc.exe -DGGML_COMMIT=\\\"unknown\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_VERSION=\\\"0.0.0\\\" -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-base.dir/includes_C.rsp -O3 -DNDEBUG -std=gnu11 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -o CMakeFiles\\ggml-base.dir\\ggml-alloc.c.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-alloc.c",
   "file": "D:/cpp/llama.cpp/ggml/src/ggml-alloc.c",
   "output": "llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/ggml/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_COMMIT=\\\"9c35706b\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_VERSION=\\\"0.0.6060\\\" -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-base.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\ggml-base.dir\\ggml-backend.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-backend.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_COMMIT=\\\"unknown\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_VERSION=\\\"0.0.0\\\" -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-base.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\ggml-base.dir\\ggml-backend.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-backend.cpp",
   "file": "D:/cpp/llama.cpp/ggml/src/ggml-backend.cpp",
   "output": "llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml-backend.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/ggml/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_COMMIT=\\\"9c35706b\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_VERSION=\\\"0.0.6060\\\" -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-base.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\ggml-base.dir\\ggml-opt.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-opt.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_COMMIT=\\\"unknown\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_VERSION=\\\"0.0.0\\\" -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-base.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\ggml-base.dir\\ggml-opt.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-opt.cpp",
   "file": "D:/cpp/llama.cpp/ggml/src/ggml-opt.cpp",
   "output": "llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml-opt.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/ggml/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_COMMIT=\\\"9c35706b\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_VERSION=\\\"0.0.6060\\\" -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-base.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\ggml-base.dir\\ggml-threading.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-threading.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_COMMIT=\\\"unknown\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_VERSION=\\\"0.0.0\\\" -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-base.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\ggml-base.dir\\ggml-threading.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-threading.cpp",
   "file": "D:/cpp/llama.cpp/ggml/src/ggml-threading.cpp",
   "output": "llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/ggml/src",
-  "command": "D:\\msy64\\mingw64\\bin\\cc.exe -DGGML_COMMIT=\\\"9c35706b\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_VERSION=\\\"0.0.6060\\\" -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-base.dir/includes_C.rsp -O3 -DNDEBUG -std=gnu11 -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -o CMakeFiles\\ggml-base.dir\\ggml-quants.c.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-quants.c",
+  "command": "D:\\msy64\\mingw64\\bin\\cc.exe -DGGML_COMMIT=\\\"unknown\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_VERSION=\\\"0.0.0\\\" -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-base.dir/includes_C.rsp -O3 -DNDEBUG -std=gnu11 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -o CMakeFiles\\ggml-base.dir\\ggml-quants.c.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-quants.c",
   "file": "D:/cpp/llama.cpp/ggml/src/ggml-quants.c",
   "output": "llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/ggml/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_COMMIT=\\\"9c35706b\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_VERSION=\\\"0.0.6060\\\" -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-base.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\ggml-base.dir\\gguf.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\gguf.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_COMMIT=\\\"unknown\\\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_VERSION=\\\"0.0.0\\\" -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-base.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\ggml-base.dir\\gguf.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\gguf.cpp",
   "file": "D:/cpp/llama.cpp/ggml/src/gguf.cpp",
   "output": "llama.cpp/ggml/src/CMakeFiles/ggml-base.dir/gguf.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/ggml/src",
-  "command": "D:\\msy64\\mingw64\\bin\\cc.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_C.rsp -O3 -DNDEBUG -std=gnu11 -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\ggml-cpu.c.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\ggml-cpu.c",
+  "command": "D:\\msy64\\mingw64\\bin\\cc.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_C.rsp -O3 -DNDEBUG -std=gnu11 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\ggml-cpu.c.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\ggml-cpu.c",
   "file": "D:/cpp/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.c",
   "output": "llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/ggml/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\ggml-cpu.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\ggml-cpu.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\ggml-cpu.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\ggml-cpu.cpp",
   "file": "D:/cpp/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.cpp",
   "output": "llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/ggml/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\repack.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\repack.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\repack.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\repack.cpp",
   "file": "D:/cpp/llama.cpp/ggml/src/ggml-cpu/repack.cpp",
   "output": "llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/ggml/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\hbm.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\hbm.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\hbm.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\hbm.cpp",
   "file": "D:/cpp/llama.cpp/ggml/src/ggml-cpu/hbm.cpp",
   "output": "llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/ggml/src",
-  "command": "D:\\msy64\\mingw64\\bin\\cc.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_C.rsp -O3 -DNDEBUG -std=gnu11 -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\quants.c.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\quants.c",
+  "command": "D:\\msy64\\mingw64\\bin\\cc.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_C.rsp -O3 -DNDEBUG -std=gnu11 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\quants.c.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\quants.c",
   "file": "D:/cpp/llama.cpp/ggml/src/ggml-cpu/quants.c",
   "output": "llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/ggml/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\traits.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\traits.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\traits.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\traits.cpp",
   "file": "D:/cpp/llama.cpp/ggml/src/ggml-cpu/traits.cpp",
   "output": "llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/ggml/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\amx\\amx.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\amx\\amx.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\amx\\amx.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\amx\\amx.cpp",
   "file": "D:/cpp/llama.cpp/ggml/src/ggml-cpu/amx/amx.cpp",
   "output": "llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/ggml/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\amx\\mmq.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\amx\\mmq.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\amx\\mmq.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\amx\\mmq.cpp",
   "file": "D:/cpp/llama.cpp/ggml/src/ggml-cpu/amx/mmq.cpp",
   "output": "llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/ggml/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\binary-ops.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\binary-ops.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\binary-ops.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\binary-ops.cpp",
   "file": "D:/cpp/llama.cpp/ggml/src/ggml-cpu/binary-ops.cpp",
   "output": "llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/ggml/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\unary-ops.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\unary-ops.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\unary-ops.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\unary-ops.cpp",
   "file": "D:/cpp/llama.cpp/ggml/src/ggml-cpu/unary-ops.cpp",
   "output": "llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/ggml/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\vec.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\vec.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\vec.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\vec.cpp",
   "file": "D:/cpp/llama.cpp/ggml/src/ggml-cpu/vec.cpp",
   "output": "llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/ggml/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\ops.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\ops.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\ops.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\ops.cpp",
   "file": "D:/cpp/llama.cpp/ggml/src/ggml-cpu/ops.cpp",
   "output": "llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/ggml/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\llamafile\\sgemm.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\llamafile\\sgemm.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\llamafile\\sgemm.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\llamafile\\sgemm.cpp",
   "file": "D:/cpp/llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.cpp",
   "output": "llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/ggml/src",
-  "command": "D:\\msy64\\mingw64\\bin\\cc.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_C.rsp -O3 -DNDEBUG -std=gnu11 -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\arch\\x86\\quants.c.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\arch\\x86\\quants.c",
+  "command": "D:\\msy64\\mingw64\\bin\\cc.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_C.rsp -O3 -DNDEBUG -std=gnu11 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\arch\\x86\\quants.c.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\arch\\x86\\quants.c",
   "file": "D:/cpp/llama.cpp/ggml/src/ggml-cpu/arch/x86/quants.c",
   "output": "llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/quants.c.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/ggml/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\arch\\x86\\repack.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\arch\\x86\\repack.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml-cpu.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles\\ggml-cpu.dir\\ggml-cpu\\arch\\x86\\repack.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-cpu\\arch\\x86\\repack.cpp",
   "file": "D:/cpp/llama.cpp/ggml/src/ggml-cpu/arch/x86/repack.cpp",
   "output": "llama.cpp/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/repack.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/ggml/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\ggml.dir\\ggml-backend-reg.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-backend-reg.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 @CMakeFiles/ggml.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\ggml.dir\\ggml-backend-reg.cpp.obj -c D:\\cpp\\llama.cpp\\ggml\\src\\ggml-backend-reg.cpp",
   "file": "D:/cpp/llama.cpp/ggml/src/ggml-backend-reg.cpp",
   "output": "llama.cpp/ggml/src/CMakeFiles/ggml.dir/ggml-backend-reg.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama.cpp",
   "file": "D:/cpp/llama.cpp/src/llama.cpp",
   "output": "llama.cpp/src/CMakeFiles/llama.dir/llama.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-adapter.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-adapter.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-adapter.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-adapter.cpp",
   "file": "D:/cpp/llama.cpp/src/llama-adapter.cpp",
   "output": "llama.cpp/src/CMakeFiles/llama.dir/llama-adapter.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-arch.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-arch.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-arch.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-arch.cpp",
   "file": "D:/cpp/llama.cpp/src/llama-arch.cpp",
   "output": "llama.cpp/src/CMakeFiles/llama.dir/llama-arch.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-batch.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-batch.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-batch.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-batch.cpp",
   "file": "D:/cpp/llama.cpp/src/llama-batch.cpp",
   "output": "llama.cpp/src/CMakeFiles/llama.dir/llama-batch.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-chat.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-chat.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-chat.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-chat.cpp",
   "file": "D:/cpp/llama.cpp/src/llama-chat.cpp",
   "output": "llama.cpp/src/CMakeFiles/llama.dir/llama-chat.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-context.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-context.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-context.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-context.cpp",
   "file": "D:/cpp/llama.cpp/src/llama-context.cpp",
   "output": "llama.cpp/src/CMakeFiles/llama.dir/llama-context.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-cparams.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-cparams.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-cparams.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-cparams.cpp",
   "file": "D:/cpp/llama.cpp/src/llama-cparams.cpp",
   "output": "llama.cpp/src/CMakeFiles/llama.dir/llama-cparams.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-grammar.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-grammar.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-grammar.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-grammar.cpp",
   "file": "D:/cpp/llama.cpp/src/llama-grammar.cpp",
   "output": "llama.cpp/src/CMakeFiles/llama.dir/llama-grammar.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-graph.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-graph.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-graph.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-graph.cpp",
   "file": "D:/cpp/llama.cpp/src/llama-graph.cpp",
   "output": "llama.cpp/src/CMakeFiles/llama.dir/llama-graph.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-hparams.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-hparams.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-hparams.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-hparams.cpp",
   "file": "D:/cpp/llama.cpp/src/llama-hparams.cpp",
   "output": "llama.cpp/src/CMakeFiles/llama.dir/llama-hparams.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-impl.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-impl.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-impl.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-impl.cpp",
   "file": "D:/cpp/llama.cpp/src/llama-impl.cpp",
   "output": "llama.cpp/src/CMakeFiles/llama.dir/llama-impl.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-io.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-io.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-io.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-io.cpp",
   "file": "D:/cpp/llama.cpp/src/llama-io.cpp",
   "output": "llama.cpp/src/CMakeFiles/llama.dir/llama-io.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-kv-cache-unified.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-kv-cache-unified.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-kv-cache-unified.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-kv-cache-unified.cpp",
   "file": "D:/cpp/llama.cpp/src/llama-kv-cache-unified.cpp",
   "output": "llama.cpp/src/CMakeFiles/llama.dir/llama-kv-cache-unified.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-kv-cache-unified-iswa.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-kv-cache-unified-iswa.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-kv-cache-unified-iswa.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-kv-cache-unified-iswa.cpp",
   "file": "D:/cpp/llama.cpp/src/llama-kv-cache-unified-iswa.cpp",
   "output": "llama.cpp/src/CMakeFiles/llama.dir/llama-kv-cache-unified-iswa.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-memory.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-memory.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-memory.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-memory.cpp",
   "file": "D:/cpp/llama.cpp/src/llama-memory.cpp",
   "output": "llama.cpp/src/CMakeFiles/llama.dir/llama-memory.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-memory-hybrid.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-memory-hybrid.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-memory-hybrid.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-memory-hybrid.cpp",
   "file": "D:/cpp/llama.cpp/src/llama-memory-hybrid.cpp",
   "output": "llama.cpp/src/CMakeFiles/llama.dir/llama-memory-hybrid.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-memory-recurrent.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-memory-recurrent.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-memory-recurrent.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-memory-recurrent.cpp",
   "file": "D:/cpp/llama.cpp/src/llama-memory-recurrent.cpp",
   "output": "llama.cpp/src/CMakeFiles/llama.dir/llama-memory-recurrent.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-mmap.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-mmap.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-mmap.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-mmap.cpp",
   "file": "D:/cpp/llama.cpp/src/llama-mmap.cpp",
   "output": "llama.cpp/src/CMakeFiles/llama.dir/llama-mmap.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-model-loader.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-model-loader.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-model-loader.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-model-loader.cpp",
   "file": "D:/cpp/llama.cpp/src/llama-model-loader.cpp",
   "output": "llama.cpp/src/CMakeFiles/llama.dir/llama-model-loader.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-model-saver.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-model-saver.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-model-saver.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-model-saver.cpp",
   "file": "D:/cpp/llama.cpp/src/llama-model-saver.cpp",
   "output": "llama.cpp/src/CMakeFiles/llama.dir/llama-model-saver.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-model.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-model.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-model.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-model.cpp",
   "file": "D:/cpp/llama.cpp/src/llama-model.cpp",
   "output": "llama.cpp/src/CMakeFiles/llama.dir/llama-model.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-quant.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-quant.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-quant.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-quant.cpp",
   "file": "D:/cpp/llama.cpp/src/llama-quant.cpp",
   "output": "llama.cpp/src/CMakeFiles/llama.dir/llama-quant.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-sampling.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-sampling.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-sampling.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-sampling.cpp",
   "file": "D:/cpp/llama.cpp/src/llama-sampling.cpp",
   "output": "llama.cpp/src/CMakeFiles/llama.dir/llama-sampling.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-vocab.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-vocab.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\llama-vocab.cpp.obj -c D:\\cpp\\llama.cpp\\src\\llama-vocab.cpp",
   "file": "D:/cpp/llama.cpp/src/llama-vocab.cpp",
   "output": "llama.cpp/src/CMakeFiles/llama.dir/llama-vocab.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\unicode-data.cpp.obj -c D:\\cpp\\llama.cpp\\src\\unicode-data.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\unicode-data.cpp.obj -c D:\\cpp\\llama.cpp\\src\\unicode-data.cpp",
   "file": "D:/cpp/llama.cpp/src/unicode-data.cpp",
   "output": "llama.cpp/src/CMakeFiles/llama.dir/unicode-data.cpp.obj"
 },
 {
   "directory": "D:/cpp/build/llama.cpp/src",
-  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\unicode.cpp.obj -c D:\\cpp\\llama.cpp\\src\\unicode.cpp",
+  "command": "D:\\msy64\\mingw64\\bin\\c++.exe -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 @CMakeFiles/llama.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles\\llama.dir\\unicode.cpp.obj -c D:\\cpp\\llama.cpp\\src\\unicode.cpp",
   "file": "D:/cpp/llama.cpp/src/unicode.cpp",
   "output": "llama.cpp/src/CMakeFiles/llama.dir/unicode.cpp.obj"
 }

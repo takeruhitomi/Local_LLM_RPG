@@ -68,14 +68,18 @@ CMakeFiles/game.dir/Game.cpp.obj
  D:/msy64/mingw64/include/_mingw_stat64.h
  D:/msy64/mingw64/include/_mingw_stdarg.h
  D:/msy64/mingw64/include/_timeval.h
+ D:/msy64/mingw64/include/c++/15.1.0/algorithm
+ D:/msy64/mingw64/include/c++/15.1.0/atomic
  D:/msy64/mingw64/include/c++/15.1.0/backward/auto_ptr.h
  D:/msy64/mingw64/include/c++/15.1.0/backward/binders.h
  D:/msy64/mingw64/include/c++/15.1.0/bit
+ D:/msy64/mingw64/include/c++/15.1.0/bits/algorithmfwd.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/align.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/alloc_traits.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/allocated_ptr.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/allocator.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/atomic_base.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/atomic_futex.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/atomic_lockfree_defines.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/basic_ios.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/basic_ios.tcc
@@ -83,10 +87,12 @@ CMakeFiles/game.dir/Game.cpp.obj
  D:/msy64/mingw64/include/c++/15.1.0/bits/basic_string.tcc
  D:/msy64/mingw64/include/c++/15.1.0/bits/char_traits.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/charconv.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/chrono.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/concept_check.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/cpp_type_traits.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/cxxabi_forced.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/cxxabi_init_exception.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/erase_if.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/exception.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/exception_defines.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/exception_ptr.h
@@ -106,9 +112,11 @@ CMakeFiles/game.dir/Game.cpp.obj
  D:/msy64/mingw64/include/c++/15.1.0/bits/move.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/nested_exception.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/new_allocator.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/node_handle.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/ostream.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/ostream.tcc
  D:/msy64/mingw64/include/c++/15.1.0/bits/ostream_insert.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/parse_numbers.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/postypes.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/predefined_ops.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/ptr_traits.h
@@ -120,22 +128,32 @@ CMakeFiles/game.dir/Game.cpp.obj
  D:/msy64/mingw64/include/c++/15.1.0/bits/shared_ptr_base.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/specfun.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/std_abs.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/std_function.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/std_mutex.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/std_thread.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/stl_algo.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_algobase.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_bvector.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_construct.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_function.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/stl_heap.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_iterator.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_iterator_base_funcs.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_iterator_base_types.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/stl_map.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/stl_multimap.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_pair.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_raw_storage_iter.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_tempbuf.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/stl_tree.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_uninitialized.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_vector.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/streambuf.tcc
  D:/msy64/mingw64/include/c++/15.1.0/bits/streambuf_iterator.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/string_view.tcc
  D:/msy64/mingw64/include/c++/15.1.0/bits/stringfwd.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/uniform_int_dist.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/unique_lock.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/unique_ptr.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/uses_allocator.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/uses_allocator_args.h
@@ -144,12 +162,16 @@ CMakeFiles/game.dir/Game.cpp.obj
  D:/msy64/mingw64/include/c++/15.1.0/bits/version.h
  D:/msy64/mingw64/include/c++/15.1.0/cctype
  D:/msy64/mingw64/include/c++/15.1.0/cerrno
+ D:/msy64/mingw64/include/c++/15.1.0/chrono
  D:/msy64/mingw64/include/c++/15.1.0/clocale
  D:/msy64/mingw64/include/c++/15.1.0/cmath
  D:/msy64/mingw64/include/c++/15.1.0/concepts
+ D:/msy64/mingw64/include/c++/15.1.0/condition_variable
  D:/msy64/mingw64/include/c++/15.1.0/cstddef
+ D:/msy64/mingw64/include/c++/15.1.0/cstdint
  D:/msy64/mingw64/include/c++/15.1.0/cstdio
  D:/msy64/mingw64/include/c++/15.1.0/cstdlib
+ D:/msy64/mingw64/include/c++/15.1.0/ctime
  D:/msy64/mingw64/include/c++/15.1.0/cwchar
  D:/msy64/mingw64/include/c++/15.1.0/cwctype
  D:/msy64/mingw64/include/c++/15.1.0/debug/assertions.h
@@ -162,19 +184,24 @@ CMakeFiles/game.dir/Game.cpp.obj
  D:/msy64/mingw64/include/c++/15.1.0/ext/numeric_traits.h
  D:/msy64/mingw64/include/c++/15.1.0/ext/string_conversions.h
  D:/msy64/mingw64/include/c++/15.1.0/ext/type_traits.h
+ D:/msy64/mingw64/include/c++/15.1.0/future
  D:/msy64/mingw64/include/c++/15.1.0/initializer_list
  D:/msy64/mingw64/include/c++/15.1.0/ios
  D:/msy64/mingw64/include/c++/15.1.0/iosfwd
  D:/msy64/mingw64/include/c++/15.1.0/iostream
  D:/msy64/mingw64/include/c++/15.1.0/istream
  D:/msy64/mingw64/include/c++/15.1.0/limits
+ D:/msy64/mingw64/include/c++/15.1.0/map
  D:/msy64/mingw64/include/c++/15.1.0/math.h
  D:/msy64/mingw64/include/c++/15.1.0/memory
+ D:/msy64/mingw64/include/c++/15.1.0/mutex
  D:/msy64/mingw64/include/c++/15.1.0/new
  D:/msy64/mingw64/include/c++/15.1.0/ostream
  D:/msy64/mingw64/include/c++/15.1.0/pstl/execution_defs.h
+ D:/msy64/mingw64/include/c++/15.1.0/pstl/glue_algorithm_defs.h
  D:/msy64/mingw64/include/c++/15.1.0/pstl/glue_memory_defs.h
  D:/msy64/mingw64/include/c++/15.1.0/pstl/pstl_config.h
+ D:/msy64/mingw64/include/c++/15.1.0/ratio
  D:/msy64/mingw64/include/c++/15.1.0/stdexcept
  D:/msy64/mingw64/include/c++/15.1.0/stdlib.h
  D:/msy64/mingw64/include/c++/15.1.0/streambuf
@@ -380,10 +407,10 @@ CMakeFiles/game.dir/Game.cpp.obj
  D:/msy64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h
  D:/msy64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h
  D:/cpp/Game.h
- D:/cpp/LLM.h
+ D:/cpp/LlmManager.h
 
-CMakeFiles/game.dir/LLM.cpp.obj
- D:/cpp/LLM.cpp
+CMakeFiles/game.dir/LlmManager.cpp.obj
+ D:/cpp/LlmManager.cpp
  D:/cpp/llama.cpp/ggml/include/ggml-alloc.h
  D:/cpp/llama.cpp/ggml/include/ggml-backend.h
  D:/cpp/llama.cpp/ggml/include/ggml-cpu.h
@@ -396,10 +423,17 @@ CMakeFiles/game.dir/LLM.cpp.obj
  D:/msy64/mingw64/include/_mingw_secapi.h
  D:/msy64/mingw64/include/_mingw_stat64.h
  D:/msy64/mingw64/include/_timeval.h
+ D:/msy64/mingw64/include/c++/15.1.0/algorithm
+ D:/msy64/mingw64/include/c++/15.1.0/backward/auto_ptr.h
  D:/msy64/mingw64/include/c++/15.1.0/backward/binders.h
  D:/msy64/mingw64/include/c++/15.1.0/bit
+ D:/msy64/mingw64/include/c++/15.1.0/bits/algorithmfwd.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/align.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/alloc_traits.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/allocated_ptr.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/allocator.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/atomic_base.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/atomic_lockfree_defines.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/basic_ios.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/basic_ios.tcc
  D:/msy64/mingw64/include/c++/15.1.0/bits/basic_string.h
@@ -410,6 +444,7 @@ CMakeFiles/game.dir/LLM.cpp.obj
  D:/msy64/mingw64/include/c++/15.1.0/bits/cpp_type_traits.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/cxxabi_forced.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/cxxabi_init_exception.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/erase_if.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/exception.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/exception_defines.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/exception_ptr.h
@@ -429,6 +464,7 @@ CMakeFiles/game.dir/LLM.cpp.obj
  D:/msy64/mingw64/include/c++/15.1.0/bits/move.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/nested_exception.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/new_allocator.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/node_handle.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/ostream.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/ostream.tcc
  D:/msy64/mingw64/include/c++/15.1.0/bits/ostream_insert.h
@@ -438,21 +474,36 @@ CMakeFiles/game.dir/LLM.cpp.obj
  D:/msy64/mingw64/include/c++/15.1.0/bits/range_access.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/refwrap.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/requires_hosted.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/shared_ptr.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/shared_ptr_atomic.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/shared_ptr_base.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/sstream.tcc
  D:/msy64/mingw64/include/c++/15.1.0/bits/std_abs.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/stl_algo.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_algobase.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_bvector.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_construct.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_function.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/stl_heap.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_iterator.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_iterator_base_funcs.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_iterator_base_types.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/stl_map.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/stl_multimap.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/stl_multiset.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_pair.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/stl_raw_storage_iter.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/stl_set.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/stl_tempbuf.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/stl_tree.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_uninitialized.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_vector.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/streambuf.tcc
  D:/msy64/mingw64/include/c++/15.1.0/bits/streambuf_iterator.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/string_view.tcc
  D:/msy64/mingw64/include/c++/15.1.0/bits/stringfwd.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/uniform_int_dist.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/unique_ptr.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/uses_allocator.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/uses_allocator_args.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/utility.h
@@ -470,8 +521,10 @@ CMakeFiles/game.dir/LLM.cpp.obj
  D:/msy64/mingw64/include/c++/15.1.0/debug/assertions.h
  D:/msy64/mingw64/include/c++/15.1.0/debug/debug.h
  D:/msy64/mingw64/include/c++/15.1.0/exception
+ D:/msy64/mingw64/include/c++/15.1.0/ext/aligned_buffer.h
  D:/msy64/mingw64/include/c++/15.1.0/ext/alloc_traits.h
  D:/msy64/mingw64/include/c++/15.1.0/ext/atomicity.h
+ D:/msy64/mingw64/include/c++/15.1.0/ext/concurrence.h
  D:/msy64/mingw64/include/c++/15.1.0/ext/numeric_traits.h
  D:/msy64/mingw64/include/c++/15.1.0/ext/string_conversions.h
  D:/msy64/mingw64/include/c++/15.1.0/ext/type_traits.h
@@ -480,9 +533,16 @@ CMakeFiles/game.dir/LLM.cpp.obj
  D:/msy64/mingw64/include/c++/15.1.0/iosfwd
  D:/msy64/mingw64/include/c++/15.1.0/iostream
  D:/msy64/mingw64/include/c++/15.1.0/istream
+ D:/msy64/mingw64/include/c++/15.1.0/map
+ D:/msy64/mingw64/include/c++/15.1.0/memory
  D:/msy64/mingw64/include/c++/15.1.0/new
  D:/msy64/mingw64/include/c++/15.1.0/ostream
+ D:/msy64/mingw64/include/c++/15.1.0/pstl/execution_defs.h
+ D:/msy64/mingw64/include/c++/15.1.0/pstl/glue_algorithm_defs.h
+ D:/msy64/mingw64/include/c++/15.1.0/pstl/glue_memory_defs.h
  D:/msy64/mingw64/include/c++/15.1.0/pstl/pstl_config.h
+ D:/msy64/mingw64/include/c++/15.1.0/set
+ D:/msy64/mingw64/include/c++/15.1.0/sstream
  D:/msy64/mingw64/include/c++/15.1.0/stdexcept
  D:/msy64/mingw64/include/c++/15.1.0/stdlib.h
  D:/msy64/mingw64/include/c++/15.1.0/streambuf
@@ -545,7 +605,7 @@ CMakeFiles/game.dir/LLM.cpp.obj
  D:/msy64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h
  D:/msy64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h
  D:/msy64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h
- D:/cpp/LLM.h
+ D:/cpp/LlmManager.h
 
 CMakeFiles/game.dir/main.cpp.obj
  D:/cpp/main.cpp
@@ -620,6 +680,7 @@ CMakeFiles/game.dir/main.cpp.obj
  D:/msy64/mingw64/include/basetsd.h
  D:/msy64/mingw64/include/bcrypt.h
  D:/msy64/mingw64/include/bemapiset.h
+ D:/msy64/mingw64/include/c++/15.1.0/atomic
  D:/msy64/mingw64/include/c++/15.1.0/backward/auto_ptr.h
  D:/msy64/mingw64/include/c++/15.1.0/backward/binders.h
  D:/msy64/mingw64/include/c++/15.1.0/bit
@@ -628,15 +689,20 @@ CMakeFiles/game.dir/main.cpp.obj
  D:/msy64/mingw64/include/c++/15.1.0/bits/allocated_ptr.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/allocator.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/atomic_base.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/atomic_futex.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/atomic_lockfree_defines.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/basic_ios.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/basic_ios.tcc
  D:/msy64/mingw64/include/c++/15.1.0/bits/basic_string.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/basic_string.tcc
  D:/msy64/mingw64/include/c++/15.1.0/bits/char_traits.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/charconv.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/chrono.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/concept_check.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/cpp_type_traits.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/cxxabi_forced.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/cxxabi_init_exception.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/erase_if.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/exception.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/exception_defines.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/exception_ptr.h
@@ -644,13 +710,23 @@ CMakeFiles/game.dir/main.cpp.obj
  D:/msy64/mingw64/include/c++/15.1.0/bits/functional_hash.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/hash_bytes.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/invoke.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/ios_base.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/istream.tcc
+ D:/msy64/mingw64/include/c++/15.1.0/bits/locale_classes.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/locale_classes.tcc
+ D:/msy64/mingw64/include/c++/15.1.0/bits/locale_facets.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/locale_facets.tcc
  D:/msy64/mingw64/include/c++/15.1.0/bits/localefwd.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/memory_resource.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/memoryfwd.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/move.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/nested_exception.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/new_allocator.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/node_handle.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/ostream.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/ostream.tcc
  D:/msy64/mingw64/include/c++/15.1.0/bits/ostream_insert.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/parse_numbers.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/postypes.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/predefined_ops.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/ptr_traits.h
@@ -662,6 +738,9 @@ CMakeFiles/game.dir/main.cpp.obj
  D:/msy64/mingw64/include/c++/15.1.0/bits/shared_ptr_base.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/specfun.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/std_abs.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/std_function.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/std_mutex.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/std_thread.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_algobase.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_bvector.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_construct.h
@@ -669,13 +748,19 @@ CMakeFiles/game.dir/main.cpp.obj
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_iterator.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_iterator_base_funcs.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_iterator_base_types.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/stl_map.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/stl_multimap.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_pair.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_raw_storage_iter.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_tempbuf.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/stl_tree.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_uninitialized.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/stl_vector.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/streambuf.tcc
+ D:/msy64/mingw64/include/c++/15.1.0/bits/streambuf_iterator.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/string_view.tcc
  D:/msy64/mingw64/include/c++/15.1.0/bits/stringfwd.h
+ D:/msy64/mingw64/include/c++/15.1.0/bits/unique_lock.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/unique_ptr.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/uses_allocator.h
  D:/msy64/mingw64/include/c++/15.1.0/bits/uses_allocator_args.h
@@ -687,10 +772,14 @@ CMakeFiles/game.dir/main.cpp.obj
  D:/msy64/mingw64/include/c++/15.1.0/clocale
  D:/msy64/mingw64/include/c++/15.1.0/cmath
  D:/msy64/mingw64/include/c++/15.1.0/concepts
+ D:/msy64/mingw64/include/c++/15.1.0/condition_variable
  D:/msy64/mingw64/include/c++/15.1.0/cstddef
+ D:/msy64/mingw64/include/c++/15.1.0/cstdint
  D:/msy64/mingw64/include/c++/15.1.0/cstdio
  D:/msy64/mingw64/include/c++/15.1.0/cstdlib
+ D:/msy64/mingw64/include/c++/15.1.0/ctime
  D:/msy64/mingw64/include/c++/15.1.0/cwchar
+ D:/msy64/mingw64/include/c++/15.1.0/cwctype
  D:/msy64/mingw64/include/c++/15.1.0/debug/assertions.h
  D:/msy64/mingw64/include/c++/15.1.0/debug/debug.h
  D:/msy64/mingw64/include/c++/15.1.0/exception
@@ -701,18 +790,29 @@ CMakeFiles/game.dir/main.cpp.obj
  D:/msy64/mingw64/include/c++/15.1.0/ext/numeric_traits.h
  D:/msy64/mingw64/include/c++/15.1.0/ext/string_conversions.h
  D:/msy64/mingw64/include/c++/15.1.0/ext/type_traits.h
+ D:/msy64/mingw64/include/c++/15.1.0/future
  D:/msy64/mingw64/include/c++/15.1.0/initializer_list
+ D:/msy64/mingw64/include/c++/15.1.0/ios
  D:/msy64/mingw64/include/c++/15.1.0/iosfwd
+ D:/msy64/mingw64/include/c++/15.1.0/iostream
+ D:/msy64/mingw64/include/c++/15.1.0/istream
  D:/msy64/mingw64/include/c++/15.1.0/limits
+ D:/msy64/mingw64/include/c++/15.1.0/map
  D:/msy64/mingw64/include/c++/15.1.0/math.h
  D:/msy64/mingw64/include/c++/15.1.0/memory
+ D:/msy64/mingw64/include/c++/15.1.0/mutex
  D:/msy64/mingw64/include/c++/15.1.0/new
+ D:/msy64/mingw64/include/c++/15.1.0/ostream
  D:/msy64/mingw64/include/c++/15.1.0/pstl/execution_defs.h
  D:/msy64/mingw64/include/c++/15.1.0/pstl/glue_memory_defs.h
  D:/msy64/mingw64/include/c++/15.1.0/pstl/pstl_config.h
+ D:/msy64/mingw64/include/c++/15.1.0/ratio
+ D:/msy64/mingw64/include/c++/15.1.0/stdexcept
  D:/msy64/mingw64/include/c++/15.1.0/stdlib.h
+ D:/msy64/mingw64/include/c++/15.1.0/streambuf
  D:/msy64/mingw64/include/c++/15.1.0/string
  D:/msy64/mingw64/include/c++/15.1.0/string_view
+ D:/msy64/mingw64/include/c++/15.1.0/system_error
  D:/msy64/mingw64/include/c++/15.1.0/tr1/bessel_function.tcc
  D:/msy64/mingw64/include/c++/15.1.0/tr1/beta_function.tcc
  D:/msy64/mingw64/include/c++/15.1.0/tr1/ell_integral.tcc
@@ -734,6 +834,9 @@ CMakeFiles/game.dir/main.cpp.obj
  D:/msy64/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/c++config.h
  D:/msy64/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/c++locale.h
  D:/msy64/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/cpu_defines.h
+ D:/msy64/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/ctype_base.h
+ D:/msy64/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/ctype_inline.h
+ D:/msy64/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/error_constants.h
  D:/msy64/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/gthr-default.h
  D:/msy64/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/gthr.h
  D:/msy64/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/os_defines.h
@@ -888,6 +991,7 @@ CMakeFiles/game.dir/main.cpp.obj
  D:/msy64/mingw64/include/vadefs.h
  D:/msy64/mingw64/include/virtdisk.h
  D:/msy64/mingw64/include/wchar.h
+ D:/msy64/mingw64/include/wctype.h
  D:/msy64/mingw64/include/winapifamily.h
  D:/msy64/mingw64/include/winbase.h
  D:/msy64/mingw64/include/wincon.h
@@ -1042,5 +1146,5 @@ CMakeFiles/game.dir/main.cpp.obj
  D:/msy64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h
  D:/msy64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xtestintrin.h
  D:/cpp/Game.h
- D:/cpp/LLM.h
+ D:/cpp/LlmManager.h
 

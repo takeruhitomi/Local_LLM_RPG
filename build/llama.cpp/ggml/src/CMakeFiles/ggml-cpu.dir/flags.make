@@ -7,11 +7,11 @@ C_DEFINES = -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE
 
 C_INCLUDES = @CMakeFiles/ggml-cpu.dir/includes_C.rsp
 
-C_FLAGS = -O3 -DNDEBUG -std=gnu11 -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -march=native -fopenmp
+C_FLAGS = -O3 -DNDEBUG -std=gnu11 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -march=native -fopenmp
 
 CXX_DEFINES = -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600
 
 CXX_INCLUDES = @CMakeFiles/ggml-cpu.dir/includes_CXX.rsp
 
-CXX_FLAGS = -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp
+CXX_FLAGS = -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp
 

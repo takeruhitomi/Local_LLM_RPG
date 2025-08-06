@@ -101,33 +101,33 @@ CMakeFiles/game.dir/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/Game.cpp.s"
 	D:\msy64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cpp\Game.cpp -o CMakeFiles\game.dir\Game.cpp.s
 
-CMakeFiles/game.dir/LLM.cpp.obj: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/LLM.cpp.obj: CMakeFiles/game.dir/includes_CXX.rsp
-CMakeFiles/game.dir/LLM.cpp.obj: D:/cpp/LLM.cpp
-CMakeFiles/game.dir/LLM.cpp.obj: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\cpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/LLM.cpp.obj"
-	D:\msy64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/LLM.cpp.obj -MF CMakeFiles\game.dir\LLM.cpp.obj.d -o CMakeFiles\game.dir\LLM.cpp.obj -c D:\cpp\LLM.cpp
+CMakeFiles/game.dir/LlmManager.cpp.obj: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/LlmManager.cpp.obj: CMakeFiles/game.dir/includes_CXX.rsp
+CMakeFiles/game.dir/LlmManager.cpp.obj: D:/cpp/LlmManager.cpp
+CMakeFiles/game.dir/LlmManager.cpp.obj: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\cpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/LlmManager.cpp.obj"
+	D:\msy64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/LlmManager.cpp.obj -MF CMakeFiles\game.dir\LlmManager.cpp.obj.d -o CMakeFiles\game.dir\LlmManager.cpp.obj -c D:\cpp\LlmManager.cpp
 
-CMakeFiles/game.dir/LLM.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/LLM.cpp.i"
-	D:\msy64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cpp\LLM.cpp > CMakeFiles\game.dir\LLM.cpp.i
+CMakeFiles/game.dir/LlmManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/LlmManager.cpp.i"
+	D:\msy64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cpp\LlmManager.cpp > CMakeFiles\game.dir\LlmManager.cpp.i
 
-CMakeFiles/game.dir/LLM.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/LLM.cpp.s"
-	D:\msy64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cpp\LLM.cpp -o CMakeFiles\game.dir\LLM.cpp.s
+CMakeFiles/game.dir/LlmManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/LlmManager.cpp.s"
+	D:\msy64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cpp\LlmManager.cpp -o CMakeFiles\game.dir\LlmManager.cpp.s
 
 # Object files for target game
 game_OBJECTS = \
 "CMakeFiles/game.dir/main.cpp.obj" \
 "CMakeFiles/game.dir/Game.cpp.obj" \
-"CMakeFiles/game.dir/LLM.cpp.obj"
+"CMakeFiles/game.dir/LlmManager.cpp.obj"
 
 # External object files for target game
 game_EXTERNAL_OBJECTS =
 
 game.exe: CMakeFiles/game.dir/main.cpp.obj
 game.exe: CMakeFiles/game.dir/Game.cpp.obj
-game.exe: CMakeFiles/game.dir/LLM.cpp.obj
+game.exe: CMakeFiles/game.dir/LlmManager.cpp.obj
 game.exe: CMakeFiles/game.dir/build.make
 game.exe: D:/msy64/mingw64/lib/libSDL2.dll.a
 game.exe: D:/msy64/mingw64/lib/libSDL2_image.dll.a

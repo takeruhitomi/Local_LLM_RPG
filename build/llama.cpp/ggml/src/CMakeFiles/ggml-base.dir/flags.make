@@ -3,15 +3,15 @@
 
 # compile C with D:/msy64/mingw64/bin/cc.exe
 # compile CXX with D:/msy64/mingw64/bin/c++.exe
-C_DEFINES = -DGGML_COMMIT=\"9c35706b\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_VERSION=\"0.0.6060\" -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600
+C_DEFINES = -DGGML_COMMIT=\"unknown\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_VERSION=\"0.0.0\" -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600
 
 C_INCLUDES = @CMakeFiles/ggml-base.dir/includes_C.rsp
 
-C_FLAGS = -O3 -DNDEBUG -std=gnu11 -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion
+C_FLAGS = -O3 -DNDEBUG -std=gnu11 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion
 
-CXX_DEFINES = -DGGML_COMMIT=\"9c35706b\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_VERSION=\"0.0.6060\" -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600
+CXX_DEFINES = -DGGML_COMMIT=\"unknown\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_VERSION=\"0.0.0\" -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600
 
 CXX_INCLUDES = @CMakeFiles/ggml-base.dir/includes_CXX.rsp
 
-CXX_FLAGS = -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi
+CXX_FLAGS = -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi
 

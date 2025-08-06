@@ -6,5 +6,5 @@ CXX_DEFINES = -DGGML_USE_CPU -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602
 
 CXX_INCLUDES = @CMakeFiles/llama.dir/includes_CXX.rsp
 
-CXX_FLAGS = -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi
+CXX_FLAGS = -O3 -DNDEBUG -std=gnu++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi
 

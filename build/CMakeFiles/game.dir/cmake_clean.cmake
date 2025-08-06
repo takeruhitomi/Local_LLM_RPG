@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/game.dir/Game.cpp.obj"
   "CMakeFiles/game.dir/Game.cpp.obj.d"
-  "CMakeFiles/game.dir/LLM.cpp.obj"
-  "CMakeFiles/game.dir/LLM.cpp.obj.d"
+  "CMakeFiles/game.dir/LlmManager.cpp.obj"
+  "CMakeFiles/game.dir/LlmManager.cpp.obj.d"
   "CMakeFiles/game.dir/main.cpp.obj"
   "CMakeFiles/game.dir/main.cpp.obj.d"
   "game.exe"

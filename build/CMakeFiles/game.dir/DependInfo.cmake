@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/cpp/Game.cpp" "CMakeFiles/game.dir/Game.cpp.obj" "gcc" "CMakeFiles/game.dir/Game.cpp.obj.d"
-  "D:/cpp/LLM.cpp" "CMakeFiles/game.dir/LLM.cpp.obj" "gcc" "CMakeFiles/game.dir/LLM.cpp.obj.d"
+  "D:/cpp/LlmManager.cpp" "CMakeFiles/game.dir/LlmManager.cpp.obj" "gcc" "CMakeFiles/game.dir/LlmManager.cpp.obj.d"
   "D:/cpp/main.cpp" "CMakeFiles/game.dir/main.cpp.obj" "gcc" "CMakeFiles/game.dir/main.cpp.obj.d"
   )
 

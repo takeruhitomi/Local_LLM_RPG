@@ -15,6 +15,9 @@ llama.cpp/models/
 # llama.cpp submodule/repository
 llama.cpp/
 
+# Font files (download separately)
+fonts/
+
 # Temporary and backup directories
 trashed/
 temp/

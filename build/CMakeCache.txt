@@ -593,7 +593,7 @@ GGML_WIN_VER:STRING=0x602
 GGML_XTHEADVECTOR:BOOL=OFF
 
 //Git command line client
-GIT_EXECUTABLE:FILEPATH=D:/msy64/usr/bin/git.exe
+GIT_EXECUTABLE:FILEPATH=GIT_EXECUTABLE-NOTFOUND
 
 //Path to a file.
 JPEG_INCLUDE_DIR:PATH=D:/msy64/mingw64/include
@@ -990,8 +990,6 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_TAPI-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//Details about finding Git
-FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[D:/msy64/usr/bin/git.exe][v2.50.1()]
 //Details about finding JPEG
 FIND_PACKAGE_MESSAGE_DETAILS_JPEG:INTERNAL=[D:/msy64/mingw64/lib/libjpeg.dll.a][D:/msy64/mingw64/include][v80()]
 //Details about finding OpenMP
