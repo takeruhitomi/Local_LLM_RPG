@@ -21,11 +21,13 @@
 ## 技術仕様
 
 - **C++ゲームエンジン**: グラフィックと入力にSDL2を使用
-- **llama.cpp統合**: 効率的なローカルLLM推論
+- **llama.cpp統合**: 効率的なローカルLLM推論（バージョン b6060）
 - **マルチロールAIシステム**: 
   - **GM**: ストーリー進行のゲームマスター
   - **NPC**: 自然な対話生成  
   - **BATTLE**: 戦闘解決とダメージ計算
+- **メモリ最適化**: スマートなモデルインスタンス共有
+- **日本語サポート**: 日本語テキストの完全なUTF-8サポート
 
 ## 前提条件
 
@@ -34,8 +36,9 @@
 - **ストレージ**: 約10GBの空き容量
 - **CPU**: 強ければ強いほど良い
 - **開発ツール**: 
-  - MSYS2、Visual Studio
-  - CMake 4.0.3
+  - MSYS2（推奨）または Visual Studio
+  - CMake 3.16+
+  - Git
 
 ## 🚀 インストール手順
 
@@ -49,11 +52,21 @@ cd Local_LLM_RPG
 ```bash
 git clone https://github.com/ggerganov/llama.cpp.git
 cd llama.cpp
+
+# 動作確認済みバージョンにチェックアウト（推奨）
+git checkout b6060
+
 mkdir build
 cd build
 cmake .. -G "MinGW Makefiles"
 cmake --build .
+cd ../..
 ```
+
+**llama.cppバージョン情報:**
+- **使用バージョン**: b6060（動作確認済み）
+- **最新バージョン**: b6101（2025年8月7日時点）
+- **注意**: 最新版では互換性問題が発生する可能性があります
 
 ### 3. LLMモデルのダウンロード
 
@@ -88,23 +101,72 @@ cmake --build .
 - **ソース**: http://jikasei.me/font/kh-dotfont/
 - **必要ファイル**: `fonts/KH-Dot-Hibiya-24.ttf`
 
-### 5. 依存関係のインストール
+### 5. 開発環境のセットアップ
 
-**SDL2ライブラリ**（Windows）:
+**MSYS2環境（推奨）**:
 ```bash
-# SDL2、SDL2_image、SDL2_ttf開発ライブラリをダウンロード
+# 1. MSYS2をダウンロード・インストール
+# https://www.msys2.org/ からインストーラーをダウンロード
+# インストール後、MSYS2 MinGW 64-bit端末を起動
+
+# 2. パッケージデータベースを更新
+pacman -Syu
+
+# 3. 開発ツールをインストール
+pacman -S mingw-w64-x86_64-gcc
+pacman -S mingw-w64-x86_64-cmake
+pacman -S mingw-w64-x86_64-make
+
+# 4. SDL2ライブラリをインストール
+pacman -S mingw-w64-x86_64-SDL2
+pacman -S mingw-w64-x86_64-SDL2_image
+pacman -S mingw-w64-x86_64-SDL2_ttf
+
+# 5. パスを通す（重要）
+# Windows環境変数のPATHに以下を追加：
+# C:\msys64\mingw64\bin
+
+# 注意: MSYS2でSDL2をインストールすることで、DLL依存関係の問題が自動的に解決されます
+```
+
+**手動セットアップ（上級者向け）**:
+```bash
+# SDL2、SDL2_image、SDL2_ttf開発ライブラリを手動ダウンロード
 # ローカルディレクトリに展開し、環境変数を設定
 ```
 
 ### 6. ゲームのビルド
 ```bash
+# MSYS2 MinGW 64-bit端末で実行
 mkdir build
 cd build
 cmake .. -G "MinGW Makefiles"
 cmake --build .
 ```
 
-### 7. ゲームの実行
+### 7. DLLファイルのコピー（MSYS2使用時）
+
+**方法A: 自動スクリプトを使用（推奨）**
+```bash
+# MSYS2端末で実行
+./scripts/copy_dlls.sh
+
+# またはWindowsコマンドプロンプトで実行
+scripts\copy_dlls.bat
+```
+
+**方法B: 手動コピー**
+```bash
+# 必要なDLLをbuildディレクトリにコピー
+cp /mingw64/bin/SDL2.dll ./
+cp /mingw64/bin/SDL2_image.dll ./
+cp /mingw64/bin/SDL2_ttf.dll ./
+cp /mingw64/bin/libgcc_s_seh-1.dll ./
+cp /mingw64/bin/libstdc++-6.dll ./
+cp /mingw64/bin/libwinpthread-1.dll ./
+```
+
+### 8. ゲームの実行
 ```bash
 ./game.exe
 ```
