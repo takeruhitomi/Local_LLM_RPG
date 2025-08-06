@@ -17,8 +17,8 @@ echo Instructions:
 echo 1. Download khdotfont-20150527.zip from the above URL
 echo 2. Extract the zip file
 echo 3. Copy KH-Dot-Hibiya-24.ttf from the extracted folder
-echo 4. Rename it to ipaexg.ttf
-echo 5. Place it in the fonts/ directory
+echo 4. Place it directly in the fonts/ directory (no renaming needed)
+echo 5. The file should be: fonts/KH-Dot-Hibiya-24.ttf
 echo.
 echo The font is licensed under SIL Open Font License 1.1
 echo Commercial use is permitted under this license.

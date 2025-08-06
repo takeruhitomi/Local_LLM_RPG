@@ -92,7 +92,7 @@ void Game::initializeDatabase() {
 }
 
 bool Game::loadResources() {
-    std::string fontPath = basePath + "fonts/ipaexg.ttf";
+    std::string fontPath = basePath + "fonts/KH-Dot-Hibiya-24.ttf";
     titleFont = TTF_OpenFont(fontPath.c_str(), 48);
     uiFont = TTF_OpenFont(fontPath.c_str(), 24);
     smallFont = TTF_OpenFont(fontPath.c_str(), 18);
