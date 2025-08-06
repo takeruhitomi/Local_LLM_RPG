@@ -4,9 +4,15 @@ cmake_minimum_required(VERSION 3.10)
 # プロジェクト名を設定
 project(ProjectChimera)
 
+# コンパイラに文字コードをUTF-8として扱うよう指示
+add_compile_options(-finput-charset=UTF-8 -fexec-charset=UTF-8)
+
 # C++17標準を使用
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# スレッドライブラリを検索
+find_package(Threads REQUIRED)
 
 # SDL2ライブラリを検索
 find_package(SDL2 REQUIRED)
@@ -20,12 +26,13 @@ add_subdirectory(llama.cpp)
 add_executable(game
     main.cpp
     Game.cpp
-    LLM.cpp
+    LlmManager.cpp
 )
 
 # 実行ファイルに必要なライブラリをリンク
 target_link_libraries(game
     PRIVATE
+    Threads::Threads
     SDL2::SDL2
     SDL2_image::SDL2_image
     SDL2_ttf::SDL2_ttf
@@ -40,8 +47,7 @@ target_link_libraries(game
     setupapi
 )
 
-# ★★★ デバッグのため、一時的にWIN32_EXECUTABLEの行をコメントアウト ★★★
-# これにより、実行時にコンソールウィンドウが表示され、エラーメッセージを確認できる
+# デバッグのため、一時的にWIN32_EXECUTABLEの行をコメントアウト
 # if(WIN32)
 #     set_target_properties(game PROPERTIES WIN32_EXECUTABLE ON)
 # endif()

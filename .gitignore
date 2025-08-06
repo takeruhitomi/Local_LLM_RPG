@@ -1,0 +1,52 @@
+# Build outputs
+build/
+*.exe
+*.obj
+*.o
+*.dll
+*.lib
+*.pdb
+
+# LLM Models (large files)
+llama.cpp/models/
+*.gguf
+*.bin
+
+# llama.cpp submodule/repository
+llama.cpp/
+
+# Temporary and backup directories
+trashed/
+temp/
+tmp/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.vcxproj.user
+*.sln.docstates
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.orig
