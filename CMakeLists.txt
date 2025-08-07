@@ -47,7 +47,7 @@ target_link_libraries(game
     setupapi
 )
 
-# デバッグ用の設定
-if(WIN32)
-    set_target_properties(game PROPERTIES WIN32_EXECUTABLE ON)
-endif()
+# デバッグ用の設定　コメントアウトしてデバッグ画面を表示
+# if(WIN32)
+#     set_target_properties(game PROPERTIES WIN32_EXECUTABLE ON)
+# endif()

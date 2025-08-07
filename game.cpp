@@ -82,7 +82,7 @@ void Game::initializeDatabase() {
     forestGuardian.name = "森の守護者";
     forestGuardian.stats = {150, 0, 25, 15, 10, 10, 8};
     forestGuardian.weaknesses = {"火", "炎", "燃焼", "火属性", "ファイア", "火魔法"};
-    forestGuardian.description = "古い森の精霊が「静寂」に侵された姿。木の身体を持つため極端に火に弱い。";
+    forestGuardian.description = "古い森の精霊が「静寂」に侵された姿。木の身体を持つためかなり火に弱い。";
     
     // std::moveでMonsterをマップに移動
     monsterDatabase["森の守護者"] = std::move(forestGuardian);
